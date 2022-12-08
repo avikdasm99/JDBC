@@ -37,7 +37,7 @@ public class EmployeeUploader {
 		 }
 		 }
 	 public static Connection con()throws SQLException{
-		 return DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","Debkanta@1998");
+		 return DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","root");
 		 
 	 }
 	 	static Scanner sc = new Scanner(System.in);
